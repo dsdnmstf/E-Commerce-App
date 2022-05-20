@@ -78,7 +78,7 @@ const Amount = styled.span`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 5px
+  margin: 0 5px;
 `;
 const Button = styled.button`
 padding:15px;
