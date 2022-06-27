@@ -1,22 +1,24 @@
-import styled from "styled-components";
 import { Send } from "@material-ui/icons";
+import styled from "styled-components";
+import mobile from "../responsive";
 
 const Container = styled.div`
   height: 60vh;
   background-color: #fcf5f5;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 const Title = styled.h1`
-  font-style: 70px;
-  margin: 20px;
+  font-size: 70px;
+  margin-bottom: 20px;
 `;
 const Description = styled.div`
-  font-style: 24px;
+  font-size: 24px;
   font-weight: 300;
   margin-bottom: 20px;
+  ${mobile({ textAlign: "center" })}
 `;
 const InputContainer = styled.div`
   width: 50%;
@@ -25,6 +27,7 @@ const InputContainer = styled.div`
   display: flex;
   justify-content: space-between;
   border: 1px solid lightgray;
+  ${mobile({ width: "80%" })}
 `;
 const Input = styled.input`
   border: none;
@@ -37,13 +40,14 @@ const Button = styled.button`
   background-color: teal;
   color: white;
 `;
-const NewsLetter = () => {
+
+const Newseletter = () => {
   return (
     <Container>
-      <Title>Newsletter</Title>
+      <Title>Newseletter</Title>
       <Description>Get timely updates from your favorite products.</Description>
       <InputContainer>
-        <Input placeholder="Your email" />
+        <Input placeholder="Your Email" />
         <Button>
           <Send />
         </Button>
@@ -52,4 +56,4 @@ const NewsLetter = () => {
   );
 };
 
-export default NewsLetter;
+export default Newseletter;
