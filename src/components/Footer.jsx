@@ -82,7 +82,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>Halo.</Logo>
+        <Logo>MF</Logo>
         <Description>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
           consectetur voluptatum eos iusto quidem? Quas, repellendus officiis
@@ -121,16 +121,13 @@ const Footer = () => {
         <Title>Contacts</Title>
         <ContactItem>
           {" "}
-          <Room style={{ marginRight: "10px" }} /> Düsseldorf, Germany
+          <Room style={{ marginRight: "10px" }} /> Hamburg, Germany
         </ContactItem>
         <ContactItem>
-          {" "}
-          <Phone style={{ marginRight: "10px" }} /> +49 176 70104713
+          <Phone style={{ marginRight: "10px" }} /> +49 17657675891
         </ContactItem>
         <ContactItem>
-          {" "}
-          <MailOutlined style={{ marginRight: "10px" }} />{" "}
-          halilkarancontact@gmail.com
+          <MailOutlined style={{ marginRight: "10px" }} /> dsdnmstf@gmail.com
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>

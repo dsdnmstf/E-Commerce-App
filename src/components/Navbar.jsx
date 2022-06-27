@@ -73,7 +73,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>HALO.</Logo>
+          <Logo>MF</Logo>
         </Center>
         <Right>
           <MenuLink>REGISTER</MenuLink>

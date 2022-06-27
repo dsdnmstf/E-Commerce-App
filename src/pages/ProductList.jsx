@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Announcement from "../components/Annoucement";
+import Announcement from "../components/Announcment";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";

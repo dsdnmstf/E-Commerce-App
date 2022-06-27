@@ -1,5 +1,5 @@
 import React from "react";
-import Annoucement from "../components/Annoucement";
+import Annoucement from "../components/Announcment";
 import Categories from "../components/Categories";
 import Footer from "../components/Footer";
 

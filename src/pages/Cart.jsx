@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
-import Announcement from "../components/Annoucement";
+import Announcement from "../components/Announcment";
 import Footer from "../components/Footer";
 import { Add, Remove } from "@material-ui/icons";
 import mobile from "../responsive";
